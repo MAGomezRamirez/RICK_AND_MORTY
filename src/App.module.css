@@ -1,0 +1,12 @@
+.App{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+background-image: url("../src/assets/imagen\ 3.jpg");
+background-size: cover;
+min-height: 45vw;
+z-index: -1;
+width: 100vw;
+
+}

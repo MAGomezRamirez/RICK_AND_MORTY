@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-gap: 10em;
+    grid-template-columns: repeat(auto-fit,minmax(12em, 1fr ));
+    margin: 10%;
+    width: 80vw;
+    box-shadow: 17px 13px 36px 19px rgba(0,0,0,0.75);
+
+  
+
+
+
+
+
+   
+  
+}
