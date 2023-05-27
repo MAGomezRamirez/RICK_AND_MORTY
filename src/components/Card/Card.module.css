@@ -1,14 +1,14 @@
 .contenedor{
    
-    background-color: rgba(33, 37, 41);
-    border: 11px solid #e9ecef;
+    background-color: #222725;
+    border: 11px solid #70e000;
     padding: 20px;
     height:auto;
     position: relative;
     overflow: hidden;
     justify-content: center;
     width: 25rem;
-    opacity: 80%;
+    opacity: 95%;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.41);
     border-radius: 33px 33px 33px 33px;
     
@@ -24,7 +24,7 @@
 }
 
 .contenedor:hover{
-    box-shadow: 26px 74px 73px 1px rgba(255,255,255,0.75);
+    box-shadow: 10px 10px 17px 8px #ffff3f;
 }
 
 .imagen{

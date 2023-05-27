@@ -3,8 +3,63 @@
     position: sticky;
     top: 0;
     background-color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: -1px;
     align-items: flex-end;
     justify-content: flex-end;
+
+}
+
+.agregar{
+    position: relative;
+    background: linear-gradient(164deg,#9ef01a 0%, #ccff33 40%, #70e000 80%);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 1px 2px;
+    transition: 0.5s;
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6); 
+    border-radius: 11px 11px 11px 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 18px;
+    bottom: 0px;
+    left: -100px;
+    right: 0;
+
+}
+
+.agregar:hover{
+    background: linear-gradient(164deg,#9ef01a 0%, #ccff33 40%, #70e000 80%);
+    color: #fff;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #ccff33;
+}
+
+.agregar::before{
+    content: "";
+    position: relative;
+    inset: 2px;
+    background: #27282c;
+}
+
+.barra{
+    position: relative;
+    background: linear-gradient(164deg,#9ef01a 0%, #ccff33 40%, #70e000 80%);
+    color: #27282c;
+    border-radius: 11px 11px 11px 11px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    position: relative;
+    top: 14px;
+    bottom: 0px;
+    left: -100px;
+    right: 0;
+    
 
 }

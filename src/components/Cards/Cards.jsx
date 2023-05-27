@@ -5,24 +5,24 @@ import style from './Cards.module.css'
    return (
    <div className= {style.container}>{
       characters.map(({id, name, species, gender, image, origin, status}) =>{
-         return(
-            <Card 
-            key={id}
-            id={id}
-            name= {name}
-            species={species}
-            gender={gender}
-            image={image}
-            origin={origin.name}
-            status={status}
-            onClose={onClose}
+         return (
+            <Card
+                key={id}
+                id={id}
+                name={name}
+                status={status}
+                species={species}
+                gender={gender}
+                image={image}
+                origin={origin}
+                onClose={onClose}
             />
-         )
+        )
 
       })
    }
    </div>
    )
-}
+};
 
-export default Cards
+export default Cards;

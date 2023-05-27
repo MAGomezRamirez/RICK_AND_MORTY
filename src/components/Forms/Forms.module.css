@@ -1,0 +1,76 @@
+.container{
+    background: #222725;
+    align-items: center;
+    justify-content: center;
+    top: 11px;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    line-height: 1.2;
+    border: 6px solid #70e000;
+}
+
+.container:hover{
+    box-shadow: 10px 10px 17px 8px #ffff3f;
+}
+
+
+.email{
+    background: #222725;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.password{
+    background: #222725;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.button{
+    position: relative;
+    background: linear-gradient(164deg,#9ef01a 0%, #ccff33 40%, #70e000 80%);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 7px 14px;
+    transition: 0.5s;
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover{
+    background: linear-gradient(164deg,#9ef01a 0%, #ccff33 40%, #70e000 80%);;
+    color: #fff;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #ccff33;
+}
+
+.imagen{
+    background-image: url(/src/assets/imagen4.jpg);
+    border-radius: 300px;
+    border-style: groove;
+    background-color: #0d1b2a;
+    border: 9px solid #70e000;
+    padding: 120px;
+
+    position: relative;
+   
+}
+

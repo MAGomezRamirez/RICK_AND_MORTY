@@ -9,8 +9,9 @@ const SearchBar = ({onSearch}) => {
    };
    return (
       <div className={style.contenedor}>
-         <input type='search' onChange={handleChange} value={id}/>
-         <button onClick ={()=> {onSearch(id)}}>Agregar</button> 
+         <input className={style.barra} type='search' onChange={handleChange} value={id}/>
+         <button className={style.agregar} onClick ={()=> {onSearch(id)}}>Agregar</button> 
+     
       </div>
    );
 }
