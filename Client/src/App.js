@@ -9,8 +9,8 @@ import About from './components/About';
 import Detail from './components/Detail/Detail';
 import Forms from "./components/Forms/Form"
 import Favorites from './components/Favorites';
-const EMAIL = 'alejandragomezr31@yahoo.com';
-const PASSWORD = 'colombia123';
+// const EMAIL = 'alejandragomezr31@yahoo.com';
+// const PASSWORD = 'alejandra970131';
 
 function App() {
 
