@@ -1,0 +1,29 @@
+.imagen{
+    background-image: url(/src/assets/foto.jpg);
+    border-radius: 300px;
+    border-style: groove;
+    background-color: #0d1b2a;
+    border: 9px solid #70e000;
+    padding: 170px;
+    top: 19px;
+    position: relative;
+}
+
+.letra{
+    background: #222725;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    top: 11px;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    line-height: 1.2;
+    border: 6px solid #70e000;
+}
+

@@ -1,7 +1,10 @@
+import style from './about.module.css'
+
 const About = () =>{
     return(
-        <div>
-            <h1>Soy el About!!</h1>
+        <div className={style.letra}>
+             <img className={style.imagen}/>
+            <h1>Maria Alejandra Gómez Ramírez</h1>
 
         </div>
     )
